@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="icone.png" type="image/png">
+</head>
+<body>
+    <form>
+    <h1>formulário</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+    <label for="name">Nome:</label>    
+    <input type="text" name="entradatexto" id="entradatexto"><br><br>
+    <label for="endereço">Endereço:</label>
+    <input type="text" name="end" id="end"><br><br>
+    <label for="Cidade">Cidade:</label>
+    <input type="text" name="cdd" id="cdd"><br><br>
+    <label for="estados">Estado:</label>
+    <select name="estados" id="estados">
+        <option value="BA">Bahia</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="SP">São Paulo</option>
+        <option value="AM">Amazonas</option>
+        <option value="RJ">Rio de janeiro</option>
+    </select><br><br>
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <h4>Natureza do cargo</h4>
+
+    <input type="radio" name="select" id="select" value="gerência">
+    <label for="select">Gerência</label>
+    <input type="radio" name="select" id="select" value="financeiro">
+    <label for="select">Financeiro</label>
+    <input type="radio" name="select" id="select" value="Recepção">
+    <label for="select">Recepção</label>
+    <input type="radio" name="select" id="select" value="Administrativo">
+    <label for="select">Administrativo</label>
+    <input type="radio" name="select" id="select" value="Jurídico">
+    <label for="select">Jurídico</label>
+
+    <h5>Area de interesse</h5>
+
+    <input type="checkbox" id="a1" name="a1" value="Computação">
+    <label for="a1">Computação</label>
+    <input type="checkbox" id="a2" name="a1" value="Biologia">
+    <label for="a1">Biologia</label>
+    <input type="checkbox" id="a3" name="a1" value="Meio">
+    <label for="a1">Meio Ambiente</label>
+    <input type="checkbox" id="a4" name="a1" value="Engenharia">
+    <label for="a1">Engenharia</label>
+    <input type="checkbox" id="a5" name="a1" value="História">
+    <label for="a1">História</label><br><br>
+
+     <label for="mensagem">Mini-currículo:</label>
+    <textarea name="mensagem" id="mensagem" rows="5" cols="45"></textarea>
+    </fieldset><br><br>
+
+    <label for="submit"></label>
+    <input type="submit" name="enviar" id="enviar" value="Enviar">
+    <label for="reset"></label>
+    <input type="reset" name="reset" id="reset" value="limpar">
+    </form>
+    
+
+
+
+
+
+</body>
+</html>

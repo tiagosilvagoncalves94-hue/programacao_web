@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(56, 209, 247);
+            font-family: Arial, Helvetica, sans-serif;
+            color: #0a0a0a;
+        }
+        .card{
+            background: #09e376;
+            padding: 20px;
+            border-radius: 12px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgb(26, 24, 24);
+        }
+        .imgperfil{
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            border: 5px solid rgb(32, 13, 242);
+            margin-bottom: 12px;
+            object-fit: fill;
+        }
+        h2{
+            margin: 10px 0 5px;
+            font-size: 30px;  
+        }
+        .local{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .job{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .botoes{
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn{
+            padding: 10px 18px;
+            border-radius: 6px;
+            border: 1px solid rgb(10, 125, 239);
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+        .btn:hover{
+            opacity: 0.8;
+            background: #2e93cd;
+        }
+        .skills{
+            margin-top: 12px;
+            text-align: left;
+        }
+        .skills h3{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .tags{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag{
+            border: 1px solid rgb(237, 240, 243);
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .social-midia{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 20px;
+        }
+        .social-midia i{
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .social-midia i:hover{
+            color: #f1250a;
+            transform: scale(1,2);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="th.png" alt="Foto de perfil" class="imgperfil">
+        <h2>Thiago Gonçalves Silva</h2>
+        <div class="local">Montes Claros - MG</div>
+        <div class="job">Estudante T.I<br>técnico em informática</div>
+
+        <div class="botoes">
+            <button  class="btn primario">Mensagem</button>
+            <button  class="btn secundario">Follow</button>
+        </div>
+        <div class="skills">
+            <h3>habilidades</h3>
+            <div class="tags">
+                <span class="tag">Especialista em rede</span>
+                <span class="tag">Desenvolvedor</span>
+                <span class="tag">Conhecimento em packtracer</span>
+                <span class="tag">habilidade em banco de dados</span>
+                <span class="tag">Conhecimento de hardware</span>
+                <span class="tag">habilidade em formatação de máquinas</span>
+                <span class="tag">Conhecimento em linux e windows</span>
+                <span class="tag">Conhecimento em html</span>
+            </div>    
+        </div>  
+        <div class="social-midia"> 
+            <i class="fab fa-facebook"></i> 
+            <i class="fab fa-github"></i> 
+            <i class="fab fa-linkedin"></i> 
+            <i class="fab fa-instagram"></i> 
+        </div>  
+    </div>  
+</body>
+</html>
