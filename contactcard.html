@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body{
+            background: linear-gradient(-45deg,rgb(2, 34, 243),rgb(11, 240, 237),rgb(239, 127, 58),rgb(235, 12, 12));
+            background-size: 400% 400%;
+            animation: gradientBG 5s ease infinite;
             margin: 0;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: rgb(56, 209, 247);
             font-family: Arial, Helvetica, sans-serif;
             color: #0a0a0a;
+        }
+        @keyframes gradientBG{
+        0%{background-position: 0% 50%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0% 50%;}
         }
         .card{
             background: #09e376;
@@ -54,7 +61,7 @@
         .btn{
             padding: 10px 18px;
             border-radius: 6px;
-            border: 1px solid rgb(10, 125, 239);
+            border: 1px solid rgb(44, 10, 239);
             cursor: pointer;
             font-size: 15px;
             transition: 0.3s;
@@ -107,8 +114,9 @@
         <div class="job">Estudante T.I<br>técnico em informática</div>
 
         <div class="botoes">
-            <button  class="btn primario">Mensagem</button>
-            <button  class="btn secundario">Follow</button>
+            
+            <a href="https://wa.me/38998948223?text=olá,%20vim%20pelo20%card." class="btn primario">Mensagem</a>
+            <a href="https://www.instagram.com/thiago.silva77_?igsh=cWZwYXZwbGllc3Bu&utm_source=qr"  class="btn secundario">Follow</a>
         </div>
         <div class="skills">
             <h3>habilidades</h3>
@@ -124,10 +132,10 @@
             </div>    
         </div>  
         <div class="social-midia"> 
-            <i class="fab fa-facebook"></i> 
-            <i class="fab fa-github"></i> 
-            <i class="fab fa-linkedin"></i> 
-            <i class="fab fa-instagram"></i> 
+            <a href="facebook.com.br" target="_blank" ><i class="fab fa-facebook"></i> 
+            <a href="https://github.com/tiagosilvagoncalves94-hue" target="_blank" ><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/thiago-gon%C3%A7alves-silva-4761a3353/" ><i class="fab fa-linkedin"></i> 
+            <a href="https://www.instagram.com/thiago.silva77_?igsh=cWZwYXZwbGllc3Bu&utm_source=qr" target="_blank" ><i class="fab fa-instagram"></i></a> 
         </div>  
     </div>  
 </body>
